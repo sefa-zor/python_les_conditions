@@ -64,18 +64,19 @@ if nombre%2==0:
     print(f"Le nombre {nombre} est pair.")
 else:
     print(f"le nombre {nombre} est impair.")
-    
+
+'''  
 
 #job 7
 
 chaine = "abcdefghijklmnopqrstuvxwyz"
-ind = 0
-haut = 1
-while ind+haut <= len(chaine):
-    print(chaine[ind:ind+haut])
-    haut += 1
+x = 0
+y = 1
+while x+y <= len(chaine):
+    print(chaine[x:x+y])
+    y += 1
 
-'''
+
 #job 8
 
 a = int(input("Entrez la première longueur : "))
